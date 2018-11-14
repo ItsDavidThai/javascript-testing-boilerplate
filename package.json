@@ -1,0 +1,29 @@
+{
+  "name": "javascript-testing-boilerplate",
+  "version": "1.0.0",
+  "description": "testing boilerplate for common testing frameworks such as mocha/chai/etc..",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests/*.specs.js --opts ./test-setup/mocha.opts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItsDavidThai/javascript-testing-boilerplate.git"
+  },
+  "keywords": [
+    "testing",
+    "mocha",
+    "chai"
+  ],
+  "author": "itsdavidthai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItsDavidThai/javascript-testing-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ItsDavidThai/javascript-testing-boilerplate#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-subset": "^1.6.0",
+    "mocha": "^5.2.0"
+  }
+}
